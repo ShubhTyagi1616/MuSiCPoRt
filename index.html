@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicPort</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="images\logo.png" alt="Spotify">MuSiCPOrT</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <!-- this container contains songlist that shown on screen and songbanner(background picture) -->
+    <div class="container">
+
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="maan meri jaan">
+                    <span class="songName">Maan Meri Jaan</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="0"
+                                class="songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="arijit singh mashup">
+                    <span class="songName">Arijit Singh Mashup 2022</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="1"
+                                class="songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="bholenaath">
+                    <span class="songName">Bholenaath</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="2"
+                                class="songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="Kesariya">
+                    <span class="songName">Kesariya</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="3"
+                                class="songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="Oh Antava Mava">
+                    <span class="songName">Oh Antava Mava</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="4"
+                                class="songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="Piya-Re-Darshan">
+                    <span class="songName">Piya re</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="5"
+                                class=" songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="Raatan Lambiyaan">
+                    <span class="songName">Raatan Lambiyaan</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="6"
+                                class="songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="Ram Ram">
+                    <span class="songName">Ram Ram</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="7"
+                                class="songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+
+                <div class="songItem">
+                    <img alt="Srivalli">
+                    <span class="songName">Srivalli</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="8"
+                                class="songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="Tere Pyaar Me">
+                    <span class="songName">Tere Pyaar Me</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="9"
+                                class="songItemPlay fa-regular fa-1x fa-play-circle"></i></span></span>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="songBanner"></div>
+    </div>
+
+    <!-- this bottom is mainly used for play the song and vo patti jo gaane k time k saath badhti rehti hai and previous and next button and play and pause button k saath -->
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+
+        </div>
+        <div class="songInfo">
+            <img src="giffolder/music-wave.gif" width="20px" alt="gif" id="gif"> <span id = "masterSongName">Maan Meri
+                Jaan</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <!-- this is a fontawesome kit link that used to put icons in the website -->
+    <script src="https://kit.fontawesome.com/d11720b253.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
